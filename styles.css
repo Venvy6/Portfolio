@@ -1,0 +1,37 @@
+body {
+  background-color: #f7af53;
+}
+
+.aboutMe, section {
+  border: solid;
+  background-color: aliceblue;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  padding-top: 0px;
+  margin-bottom: 24px;
+  font-family: "Titillium Web";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  color: #073f88;
+  opacity: 75%;
+}
+
+.name {
+  font-family: "Handjet";
+  font-size: 60px;
+}
+
+.intro {
+  font-size: 60px;
+  font-family: "Handjet";
+}
+
